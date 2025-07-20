@@ -1,0 +1,23 @@
+config = {
+    'seed': 42,
+    'num_workers': 4,
+    'img_size': 32,
+    'num_classes': 10,
+    'num_clients': 10,
+    'num_rounds': 50,
+    'max_epochs': 8,
+    'distill_epochs': 2,
+    'batch_size': 128,
+    'lr': 0.001,
+    'max_grad_norm': 1.0,
+    'public_data_ratio': 0.1,
+    'kd_tempreature': 4.0,
+    'vit_patch_size': 8,
+    'vit_dim': 128,
+    'vit_depth': 4,
+    'vit_heads': 8,
+    'vit_mlp_dim': 256,
+    'early_stop_patience': 3,
+    'gradient_accumulation_steps': 1,
+    'model_selection_strategy': 'diverse'
+}
